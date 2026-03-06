@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "kitmod",
+  "version": "1.0.0",
+  "name": "PvP Kit Mod",
+  "description": "Adds the /kitgive command for PvP kits.",
+  "authors": [
+    "YourName"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.kitmod.KitMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.21.11",
+    "fabric-api": "*"
+  }
+}
